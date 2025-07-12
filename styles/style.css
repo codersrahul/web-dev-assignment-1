@@ -144,7 +144,7 @@ nav{
     padding: 0px;
 }
 .fa-star{
-    color:rgb(165, 165, 121);
+    color:yellow;
 }
 .contact-content{
     display:flex;
@@ -195,7 +195,7 @@ li{
     width: 100%;
 }
 .review{
-    background-color: gray;
+    background-color: rgb(155, 135, 208);
     padding: 40px 15px;
     border-radius: 10px;
 }
@@ -210,6 +210,6 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(51, 133, 21);
+    background-color: rgb(252, 110, 134);
 }
 
