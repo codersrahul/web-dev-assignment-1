@@ -4,6 +4,7 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 *{
     margin:0;
     padding:0;
@@ -20,11 +21,13 @@ nav{
     align-items: center;
 }
 
-.first-LOGO{
+.first-Livtech{
     font-weight:bold;
-    font-size:34;
+    font-size:44px;
     color:#4E47FF;
     margin-left:100px;
+    font-family:Montserrat,sans-serif;
+
 }
 
 .btn-primary{
@@ -93,7 +96,7 @@ nav{
     font-weight: bold;
     color:#252432;
 }
-.prductive-details{
+.productive-details{
     display:flex;
     justify-content: space-around;
 }
@@ -174,10 +177,12 @@ input{
 
 }
 .footer-logo{
-    margin-left: 115px;
+    margin-left: 80px;
     font-size: 100px;
     font-weight: bold;
     color: rgba(78, 71, 255, 1);
+    /* margin-right: 0%; 
+    margin-left: 0%; */
 }
 ul{
     display: flex;
@@ -193,6 +198,7 @@ li{
 }
 .text-area{
     width: 100%;
+    height: 30%;
 }
 .review{
     background-color: rgb(155, 135, 208);
@@ -200,10 +206,11 @@ li{
     border-radius: 10px;
 }
 .contact-des h1{
-    font-size: 68px;
+    font-size: 78px;
 }
-input{
-    margin-bottom: 20px;
+ .input{
+ margin-bottom: 20px
+
 }
 button{
     transition: .2s all;
@@ -212,4 +219,8 @@ button{
 button:hover{
     background-color: rgb(252, 110, 134);
 }
+.text-area {
+  width: 100%;
+  height: 80px;
 
+}
